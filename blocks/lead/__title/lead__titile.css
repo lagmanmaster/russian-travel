@@ -1,0 +1,35 @@
+.lead__titile{
+    margin: 0;
+    padding: 0;
+    line-height: 100px;
+    font-weight: 900;
+    font-size: 96px;
+    font-family: 'Inter';
+    margin-bottom: 32px;
+    color: #FFFFFF;
+    padding-top: 56px;
+    text-align: center;
+    justify-content: center;
+}
+@media (max-width:1024px){
+    .lead__titile{
+        padding-top: 48px;
+    }
+}
+
+@media (max-width:768px){
+    .lead__titile{
+        padding-top: 48px;
+    }
+}
+
+@media (max-width:320px){
+    .lead__titile{
+        max-width: 288px;
+        padding-top: 48px;
+        margin-bottom: 16px;
+        font-size: 40px;
+        line-height: 44px;
+    }
+}
+

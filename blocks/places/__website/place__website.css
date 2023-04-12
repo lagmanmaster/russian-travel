@@ -1,0 +1,20 @@
+.place__website{
+    padding-bottom: 48px;
+    align-self: end;
+}
+@media (max-width:1023px){
+  .place__website {
+      padding-bottom: 49px;
+  }
+}
+/* @media (max-width:767px){
+    .place__website {
+      padding-left: 24px;
+    }
+  }  */
+@media (max-width:320px){
+    .place__website {
+      padding-left: 16px;
+      padding-bottom: 32px;
+    }
+}

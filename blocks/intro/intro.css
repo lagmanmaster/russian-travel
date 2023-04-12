@@ -1,0 +1,23 @@
+.intro{
+    justify-content: left;
+    padding-top: 92px;
+    padding-bottom: 92px;
+    padding-left: 148px;
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width:1024px){
+    .intro{
+        padding: 92px 286px 92px 48px;
+    }
+}
+@media (max-width:768px){
+    .intro{
+        padding: 88px 24px;
+    }
+}
+@media (max-width:320px){
+    .intro{
+        padding: 64px 16px;
+    }
+}
