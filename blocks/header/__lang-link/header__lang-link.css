@@ -10,14 +10,13 @@
     text-decoration-line: none;
     color: #FFFFFF;
     width: 29px;
-    height: 28px;
     margin-top: 18px;
     margin-bottom: 6px;
 
 }
-/* .header__lang-link:hover{
+.header__lang-link:hover{
     text-decoration: underline;
-} */
+}
 .header__lang-link:active{
     text-decoration: underline;
 }

@@ -22,14 +22,35 @@
         padding-top: 48px;
     }
 }
-
+/* Медиазапросы для плавного перехода заголовка */
+@media (max-width:705px){
+    .lead__titile{
+        padding-top: 48px;
+        font-size: 70px;
+        line-height: 70px;
+    }
+  } 
+  @media (max-width:525px){
+    .lead__titile{
+        padding-top: 48px;
+        font-size: 50px;
+        line-height: 60px;
+    }
+  } 
+  @media (max-width:380px){
+    .lead__titile{
+        padding-top: 48px;
+        font-size: 40px;
+        line-height: 50px;
+    }
+  } 
+  /* . */
 @media (max-width:320px){
     .lead__titile{
-        max-width: 288px;
+        /* max-width: 288px; */
         padding-top: 48px;
         margin-bottom: 16px;
         font-size: 40px;
         line-height: 44px;
     }
 }
-

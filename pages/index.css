@@ -1,8 +1,9 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/font.css);
 @import url(../blocks/body/body.css);
-@import url(../content/content.css);
+@import url(../blocks/content/content.css);
 @import url(../blocks/container/container.css);
+@import url(../blocks/page/page.css);
 /* Блок header  */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -37,15 +38,11 @@
 @import url(../blocks/places/place/place.css);
 /* Блок cover  */
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/cover/__background/cover__background.css);
-@import url(../blocks/cover/__content/cover__content.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__title/cover__title.css);
-@import url(../blocks/cover/__titles-contain/cover__titles-contain.css);
 /* Блок footer  */
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__nav/footer__nav.css);
 @import url(../blocks/footer/__list/footer__list.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
