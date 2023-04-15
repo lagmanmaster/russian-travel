@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     text-align: left;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -14,14 +14,10 @@
 .place__paragraph:last-child {
     padding-bottom: 0;
   }
-@media (max-width:320px) and (max-width:768px){
+@media (max-width:768px){
   .place__paragraph {
         font-size: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
   }
-@media (max-width:320px){
-  .place__paragraph{
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-}

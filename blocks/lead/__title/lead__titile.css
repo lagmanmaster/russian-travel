@@ -4,7 +4,7 @@
     line-height: 100px;
     font-weight: 900;
     font-size: 96px;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     margin-bottom: 32px;
     color: #FFFFFF;
     padding-top: 56px;
@@ -16,41 +16,18 @@
         padding-top: 48px;
     }
 }
-
-@media (max-width:768px){
-    .lead__titile{
-        padding-top: 48px;
-    }
-}
-/* Медиазапросы для плавного перехода заголовка */
 @media (max-width:705px){
     .lead__titile{
-        padding-top: 48px;
         font-size: 70px;
         line-height: 70px;
     }
   } 
-  @media (max-width:525px){
+@media (max-width:525px){
     .lead__titile{
-        padding-top: 48px;
-        font-size: 50px;
-        line-height: 60px;
-    }
-  } 
-  @media (max-width:380px){
-    .lead__titile{
-        padding-top: 48px;
-        font-size: 40px;
-        line-height: 50px;
-    }
-  } 
-  /* . */
-@media (max-width:320px){
-    .lead__titile{
-        /* max-width: 288px; */
-        padding-top: 48px;
-        margin-bottom: 16px;
+        max-width: 288px;
         font-size: 40px;
         line-height: 44px;
+        margin: 0 auto;
+        margin-bottom: 16px;
     }
-}
+  } 

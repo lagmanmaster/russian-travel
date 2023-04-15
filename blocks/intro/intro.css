@@ -6,19 +6,26 @@
     display: flex;
     flex-direction: column;
 }
-  @media (max-width:1023px){
-    .intro{
-        max-width: 720px;
-        padding-left: 48px;
-    }
+@media (max-width:1279px){
+  .intro{
+    padding-left: 48px;
   }
-  @media (max-width:767px){
-    .intro{
-        padding-left: 24px;
-    }
-  } 
-  @media (max-width:320px){
-    .intro{
-        padding: 64px 16px;
-    }
+} 
+@media (max-width:1023px){
+  .intro{
+      max-width: 720px;
+      padding-left: 24px;
+  }
+}
+@media (max-width:767px){
+  .intro{
+      max-width: 700px;
+      padding-left: 16px;
+  }
+} 
+@media (max-width:500px){
+  .intro{
+      max-width: 370px;
+      padding-left: 16px;
+  }
 }
