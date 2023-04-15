@@ -6,29 +6,29 @@
     flex-direction: column;
     gap: 80px;
 }
-@media (max-width:1023px){
+@media (max-width:1279px){
+    .places{
+        padding: 92px 48px;
+    }
+}
+@media (max-width:1024px){
     .places{
         max-width: 928px;
         padding: 92px 48px;
     }
 }
-@media (max-width:767px){
+@media (max-width:768px){
     .places{
         max-width: 720px;
         gap: 73px;
+        padding: 92px 24px;
     }
 } 
-@media (max-width:500px){
-    .places{
-        padding: 64px 0 50px 0;
-        max-width: 320px;
-        gap: 50px;
-    }
-}
 @media (max-width:320px){
     .places{
-        padding: 64px 0 50px 0;
+        padding: 64px 0 66px 0;
         max-width: 320px;
         gap: 50px;
     }
 }
+

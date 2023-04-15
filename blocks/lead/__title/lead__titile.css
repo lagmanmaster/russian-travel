@@ -1,5 +1,5 @@
 .lead__titile{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     line-height: 100px;
     font-weight: 900;
@@ -10,10 +10,12 @@
     padding-top: 56px;
     text-align: center;
     justify-content: center;
+    max-width: 720px;
 }
 @media (max-width:1024px){
     .lead__titile{
         padding-top: 48px;
+        max-width: 720px;
     }
 }
 @media (max-width:705px){
@@ -25,8 +27,8 @@
 @media (max-width:525px){
     .lead__titile{
         max-width: 288px;
-        font-size: 40px;
-        line-height: 44px;
+        font-size: 32px;
+        line-height: 35px;
         margin: 0 auto;
         margin-bottom: 16px;
     }
