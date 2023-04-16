@@ -8,7 +8,7 @@
 }
 @media (max-width:1279px){
   .intro{
-    padding-left: 48px;
+    padding-left: 148px;
   }
 } 
 @media (max-width:1023px){
@@ -26,6 +26,7 @@
 @media (max-width:500px){
   .intro{
       max-width: 370px;
-      padding-left: 16px;
+      padding-top: 64px;
+      padding-bottom: 64px;
   }
 }

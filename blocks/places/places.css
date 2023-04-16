@@ -14,7 +14,6 @@
 @media (max-width:1024px){
     .places{
         max-width: 928px;
-        padding: 92px 48px;
     }
 }
 @media (max-width:768px){
@@ -24,11 +23,15 @@
         padding: 92px 24px;
     }
 } 
-@media (max-width:320px){
+@media (max-width:430px){
     .places{
         padding: 64px 0 66px 0;
-        max-width: 320px;
         gap: 50px;
+    }
+}
+@media (max-width:320px){
+    .places{
+        max-width: 320px;
     }
 }
 

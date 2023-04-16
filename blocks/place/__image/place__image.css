@@ -10,3 +10,8 @@
         padding-bottom: 32px;
     }
   }
+  @media (max-width:4430px){
+    .place__image {
+      width: 100%;
+    }
+}
