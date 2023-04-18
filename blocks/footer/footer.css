@@ -19,7 +19,7 @@
         padding: 88px 24px 24px 24px;
     }
   }
-@media (max-width:320px){
+@media (max-width:390px){
     .footer {
         flex-direction: column;
         gap: 48px;

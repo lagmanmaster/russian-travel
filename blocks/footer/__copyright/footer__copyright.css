@@ -9,8 +9,9 @@
     text-align: right;
     color: #FFFFFF;
     align-self: flex-end;
+    
 }
-@media (max-width:320px){
+@media (max-width:390px){
     .footer__copyright{
         align-self: self-start;
     }

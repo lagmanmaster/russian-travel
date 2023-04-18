@@ -17,7 +17,7 @@
         padding-top: 48px;
     }
 }
-@media (max-width:705px){
+@media (max-width:715px){
     .lead__titile{
         max-width: 550px;
         font-size: 65px;
@@ -33,9 +33,10 @@
         margin-bottom: 16px;
     }
   } 
-  @media (max-width:380px){
+  @media (max-width:400px){
     .lead__titile{
         font-size: 40px;
         line-height: 44px;
+        max-width:  calc(100% - 10px*2);
     }
   } 
